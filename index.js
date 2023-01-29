@@ -5,7 +5,7 @@ require("dotenv").config();
 // Импорт нашего модуля с константами
 const my_const = require("./const");
 // Инициализация бота с помощью Telegraf
-const bot = new Telegraf(process.env.BOT_TOKEN);
+const bot = new Telegraf("5946720691:AAGWZTXUcWe__Pm7VCMdL3R9A1_XKPtPOWw");
 
 // Обработка команды /start
 bot.start((ctx) =>
