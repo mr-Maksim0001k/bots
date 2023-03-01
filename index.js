@@ -62,7 +62,7 @@ function addActionBot(id_btn, src_img, text, preview) {
 addActionBot("btn_1", false, my_const.text1, false);
 addActionBot("btn_2", false, my_const.text2, false);
 addActionBot("btn_3", false, my_const.text3, false);
-
+let b;
 // Запустить бота
 bot.launch();
 
